@@ -1,7 +1,12 @@
+//importando o Mycomponent, hierarquia componentes
+import MyComponent from "./MyComponent";
+
+//1 => criando o primeiro componete
 const FirstComponent = () => {
   return (
     <div>
-      <h1>Primeiro Componente</h1>
+      <h2>Primeiro Componente</h2>
+      <MyComponent />
     </div>
   );
 };
